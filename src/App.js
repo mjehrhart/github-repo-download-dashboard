@@ -12,7 +12,7 @@ const App = () => {
   const [totalDownloads, setTotalDownloads] = useState(0);
 
   const onHandlerChange = (text) => {
-    setRepo(text.trim()); 
+    setRepo(text.trim());
     let url = "https://vkcfnl0zsi.execute-api.us-west-2.amazonaws.com/Prod/?userrepo=" + text.trim();
     setRepoPath(url);
   }
@@ -27,7 +27,7 @@ const App = () => {
           setTotalDownloads(0);
           return null;
         }
- 
+
         //Setup data struct
         var structured = {};
         structured.assets = [];
@@ -88,7 +88,7 @@ const App = () => {
       });
   }
 
-  const onHandlerClearRepoText = () => { 
+  const onHandlerClearRepoText = () => {
     setRepo("");
     setRepoPath("");
   }
@@ -157,9 +157,16 @@ const App = () => {
         </div>
 
       </div>
+      <div className='note-footer'>
+        <a
+          href="https://github.com/mjehrhart/github-repo-download-dashboard"
+          className='note-github'
+          target={"_blank"}>
+          View Code on Githup</a>
+
+      </div>
     </>
   );
 }
 
 export default App;
- 

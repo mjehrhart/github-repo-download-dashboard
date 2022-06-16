@@ -24,9 +24,9 @@ const Search = ({ placeholder, onHandlerChange, onHandlerBlur, defaultValue, onH
             <input type='text'
                 placeholder={placeholder}
                 onChange={onChange}
-                onClick={onBlur}
-                onBlur={onBlur}
-                defaultValue={defaultValue} />
+                onClick={onBlur} 
+                defaultValue={defaultValue} 
+                autoFocus={true}/>
             <button
                 className="btn"
                 onClick={onBlur}

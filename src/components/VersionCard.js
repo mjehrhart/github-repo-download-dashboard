@@ -24,16 +24,4 @@ const VersionCard = ({ id, tag_name, download_count, published_at, name, uploade
 
 }
 
-export default VersionCard;
-
-{/* <div className="card">
-                <span>{tag_name}</span>
-                <span>{name}</span>
-                <span>{uploader}</span>
-                <img src={avatar} alt="profile" className="avatar" />
-                <span>{html_url}</span>
-                <div className="download-count">{download_count}</div>
-                <div className="note-footer">
-                    <small>{published_at}</small>
-                </div>
-            </div> */}
+export default VersionCard; 
