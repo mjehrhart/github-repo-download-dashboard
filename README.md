@@ -12,10 +12,10 @@ This simle webapp tracks how many times your GitHub Release has been downloaded.
  
  
 # Note
-This works only for GitHub repositories that use the Release to create releases to bundle and deliver iterations of a project to users.
+This works only for GitHub repositories that use the Release functionality to create releases to bundle and deliver iterations of a project to users.
 
 # Technology Used
-The frontend is written in ReactJs. The backend is uses AWS Lambda written in Rust Language for it's API calls.
+The frontend is written in ReactJs. The backend uses a AWS Lambda written in Rust Language for it's API call using AWS API Gateway.
 
 # Screenshots 
 
